@@ -1,0 +1,238 @@
+
+.gallery-scroll {
+    display: flex;
+    
+    height: 350px;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+  }
+  
+  .gallery-item {
+    height: 350px;
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #333;
+    color: #d9d9d9;
+    scroll-snap-align: center;
+  }
+  .gallery-img{
+    height: 300px;
+  }
+  .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: px 1px 5px #999;
+    z-index: 100;
+}
+.whatsapp_float:hover{
+  transform:scale(1.5)
+}
+#phone{
+  margin-top: 15px;
+    color: white;
+}
+body {
+  font-family: 'Roboto';
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  font-style: normal;
+  color: #494949;
+  font-size: 16px;
+}
+.site-heading{
+  margin: auto;
+    margin-bottom: 20px;
+}
+.social-icons{
+  
+  margin-left: 40px;
+  padding: 0;
+  font-size : 10px;
+}
+.social {
+  margin:7px 7px 7px 0px;
+  color:#232323;
+}
+
+.team-content{
+  margin-left: 55px;
+    padding-top: 14px;
+}
+
+.team-img:hover {
+  background:#f5f5f5;
+  
+}
+
+.image{
+  width: 300px;
+  height: auto;
+  margin-left: 26px;
+  margin-top: 15px;
+}
+.image:hover{
+  background:#f5f5f5 ;
+  transform: scale(1.5)
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #000;
+}
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #000;
+}
+
+h3 {
+  line-height: 26px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-style: normal;
+  color: #000;
+}
+h4 { font-size: 19px; 
+   letter-spacing: 0px; 
+   font-weight: 600;
+   font-style: normal;
+   color: #000;
+}
+
+p {
+  font-weight: 400;
+  font-style: normal;
+  color: #494949;
+}
+.services{
+  color: #2f6212;
+  text-align: justify;
+  font-family: cursive;
+}
+#social-em{
+  
+  color: #08e425;
+  font-size: x-large;
+  margin-left: 55px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+#social-em:hover{
+  transform: scale(1.5)
+}
+
+body {
+font-family: 'Roboto';
+line-height: 24px;
+letter-spacing: 0.5px;
+font-weight: 400;
+font-style: normal;
+color: #494949;
+font-size: 16px;
+}
+.site-heading{
+text-align: center; 
+  margin-bottom: 20px;
+}
+.social-icons{
+
+margin-left: 40px;
+padding: 0;
+font-size : 10px;
+}
+.social {
+margin:7px 7px 7px 0px;
+color:#232323;
+}
+
+.team-content{
+margin-left: 55px;
+  padding-top: 14px;
+}
+
+
+
+.image{
+width: 300px;
+height: auto;
+margin-left: 26px;
+margin-top: 15px;
+}
+.image:hover{
+background:#f5f5f5 ;
+transform: scale(1.5)
+}
+
+h1 {
+font-size: 35px;
+line-height: 40px;
+letter-spacing: 0px;
+font-weight: 600;
+color: #000;
+}
+h2 {
+font-size: 30px;
+line-height: 40px;
+letter-spacing: 0px;
+font-weight: 600;
+color: #000;
+}
+
+h3 {
+line-height: 26px;
+font-size: 20px;
+letter-spacing: 0px;
+font-weight: 600;
+font-style: normal;
+color: #000;
+}
+h4 { font-size: 19px; 
+ letter-spacing: 0px; 
+ font-weight: 600;
+ font-style: normal;
+ color: #000;
+}
+
+p {
+font-weight: 400;
+font-style: normal;
+color: #494949;
+}
+.services{
+color: #2f6212;
+text-align: justify;
+font-family: cursive;
+}
+#social-em{
+
+color: #08e425;
+font-size: x-large;
+margin-left: 55px;
+margin-top: 30px;
+margin-bottom: 5px;
+}
+#social-em:hover{
+transform: scale(1.5)
+}
+
