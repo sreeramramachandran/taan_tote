@@ -26,15 +26,18 @@
   }
   .whatsapp_float {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
+    min-width: 82px;
+    min-height: 82px;
+    max-width: 53px;
+    max-height: 26px;
+    bottom: 56px;
     right: 40px;
     background-color: #25d366;
     color: #FFF;
-    border-radius: 50px;
-    text-align: center;
+    border-radius: 70px;
     font-size: 30px;
+    padding-top: 13px;
+    text-align: center;
     box-shadow: px 1px 5px #999;
     z-index: 100;
 }
@@ -236,3 +239,196 @@ margin-bottom: 5px;
 #social-em:hover{
 transform: scale(1.5)
 }
+
+
+
+.u-section-1 .u-sheet-1 {
+  min-height: 610px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 700px;
+  margin-top: 29px;
+  margin-bottom: -50px;
+  height: auto;
+  background-image: url("images/young-woman-dressed-summer-outfit-out-city.jpg");
+  background-position: 50% 50%;
+}
+.btn{
+  border: rgb(255, 217, 0);    background-color: yellow;
+          margin-left: 190px;
+          margin-top: 106px;
+          color: black;
+          font-weight: bolder;
+}
+.btn:hover{
+  transform: scale(1.1);
+  background-color: #e4d613;
+  color: #000;
+}
+.u-section-1 .u-container-layout-1 {
+  padding: 0 30px;
+}
+.u-section-2 .u-container-layout-1 {
+  padding: 30px;
+  margin-top: 0px;
+  background-image: url("images/pexels-cottonbro-4068314.jpg");
+  background-position: 55% 23%;
+  background-size: cover;
+}
+.u-section-1 .u-text-1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin: 46px auto 0px 0;
+  padding-top: 35px;
+  color: #7c7087;
+  font-family: 'Font Awesome 5 Brands';
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 6rem;
+    font-weight: 700;
+    margin: 0 504px 0 0;
+    color: #ebba92;
+    font-family: 'Font Awesome 5 Free';
+}
+
+
+
+.u-section-1 .u-text-4 {
+  margin: 20px auto 0 0;
+}
+
+
+
+.u-section-1 .u-text-5 {
+  font-size: 6rem;
+  font-weight: 700;
+  text-shadow: 2px 6px #b1abab;
+  margin: 25px 0 0 auto;
+  color: #817d78;
+}
+
+
+  .u-section-2 .u-sheet-1 {
+  min-height: 220px;
+}
+
+.u-section-2 .u-group-1 {
+  margin-top: 20px;
+  width: 559px;
+  min-height: 200px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.1);
+  height: auto;
+  margin: -51px auto 25px;
+}
+
+
+.u-section-2 .u-text-1 {
+  font-size: 1.875rem;
+    font-weight: 700;
+    font-family: serif;
+    text-align: center;
+    text-shadow: 2px 1px #161616;
+    color: #ffffff;
+}
+
+.u-imaged{
+  margin: left 10px; max-height: 618px;max-width:450px;
+  min-width: 100%;min-height: 100%;
+}
+@font-face{font-family:'Calluna';
+  src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+ }
+ body {
+   background: url(//subtlepatterns.com/patterns/scribble_light.png);
+   font-family: Calluna, Arial, sans-serif;
+   min-height: 1000px;
+ }
+ #columns {
+   column-width: 350px;
+   column-gap: 100px;
+   width: 72%;
+   max-width: 1300px;
+   margin: 50px auto;
+ }
+ 
+ div#columns figure {
+   background: #fefefe;
+   border: 2px solid #fcfcfc;
+   box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+   margin: 0 2px 15px;
+   padding: 15px;
+   padding-bottom: 10px;
+   /* transition: opacity .4s ease-in-out; */
+   display: inline-block;
+   column-break-inside: avoid;
+ }
+ 
+ div#columns figure img {
+   width: 100%; height: auto;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 15px;
+   margin-bottom: 5px;
+ }
+ 
+ div#columns figure figcaption {
+   font-size: .9rem;
+   color: #444;
+   line-height: 1.5;
+ }
+ 
+ div#columns small { 
+   font-size: 1rem;
+   float: right; 
+   text-transform: uppercase;
+   color: #aaa;
+ } 
+ 
+ div#columns small a { 
+   color: #666; 
+   text-decoration: none; 
+   transition: .4s color;
+ }
+ 
+ div#columns figure:hover  {
+   opacity: 0.7;
+ }
+ 
+ @media screen and (max-width: 750px) { 
+   #columns { column-gap: 0px; }
+   #columns figure { width: 100%; }
+ }
+ .u-section-5 .u-sheet-1 {
+  min-height: 175px;
+}
+.next-img{
+  padding: 30px;
+    margin-top: 0px;
+  background-image: url(images/16633176008217.jpg);
+  background-position: 55% 23%;
+    background-size: cover;
+    min-width: 300px;
+    max-width: 100%;
+}
+.u-style-img{
+  min-width: 700px;
+  min-height: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  background-image: url("images/wepik-photo-mode-202291-212531.png");
+  background-size: cover;
+  
+}
+.image-set{
+  min-width: 500px;
+  max-width: 800px;
+
+}
+.gallery-wrapper{
+  min-width: 804px;
+  max-width: 1500px;
+}
+
+
+
